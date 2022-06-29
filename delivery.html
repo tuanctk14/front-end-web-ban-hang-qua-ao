@@ -43,33 +43,29 @@
         </div>
 <!-- end header -->
 <section class="delivery">
-        <div class="delivery-content">
+        <div class="delivery-content row">
             <div class="delivery-content-left row">
                 <div class="delivery-content-left-input-left row">
                     <p>THÔNG TIN NHẬN HÀNG</p>
-                    <div class="delivery-content-left-input-left-item">
-                        <label for="">Họ Tên<span style="color:rgb(255, 0, 0) ;">*</span></label>
-                        <input type="text" name="" id="">
-                    </div>
-                    <div class="delivery-content-left-input-left-item">
-                        <label for="">Điện thoại<span style="color:rgb(255, 0, 0) ;">*</span></label>
-                        <input type="text" name="" id="">
-                    </div>
-                    <div class="delivery-content-left-input-left-item">
-                        <label for="">Email<span style="color:rgb(255, 0, 0) ;">*</span></label>
-                        <input type="text" name="" id="">
-                    </div>
-                    <div class="delivery-content-left-input-left-item">
-                        <label for="">Địa chỉ<span style="color:rgb(255, 0, 0) ;">*</span></label>
-                        <input type="text" name="" id="">
-                    </div>
-                    <div class="delivery-content-left-input-left-item">
-                        <label for="">Ghi chú</label>
-                        <input type="text" name="" id="">
-                    </div>
+                    <form action="">
+                        <div class="delivery-content-left-input-left-item">
+                            <input type="text" class="contact-input-name row-in" placeholder="Họ tên" required>
+                            <input type="email" class="contact-input-email row-in" placeholder="Email" required>
+                            <input type="text" class="contact-input-mess row-in" placeholder="Số điện thoại" required>
+                            <input type="text" class="contact-input-mess row-in" placeholder="Địa chỉ" required>
+                            <input type="text" class="contact-input-mess row-in" placeholder="Ghi chú" required>
+                        </div>
+                    </form>
                 </div>
                 <div class="delivery-content-left-input-right row">
                     <p>THANH TOÁN</p>
+                    <form action="">
+                        <div class="delivery-content-left-input-right-item">
+                            <input type="text" class="contact-input-name row-in" placeholder="Mã giảm giá" required>
+                            <input type="submit" id="contact-sent-to" value="Áp dụng">
+                        </div>
+                    </form>
+                    <p>HÌNH THỨC THANH TOÁN</p>
                     <div class="delivery-content-left-input-right-loaithanhtoan">
                         <div class="delivery-content-left-input-right-cod row">
                             <input checked name="loaithanhtoan" type="radio">
@@ -83,7 +79,37 @@
                 </div>
             </div>
             <div class="delivery-content-right">
-            
+                <div class="cart-content-right">
+                    <table>
+                        <tr>
+                            <th colspan="2">TỔNG TIỀN GIỎ HÀNG</th>
+                        </tr>
+                        <tr>
+                            <td>TỔNG SẢN PHẨM</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>TẠM TÍNH</td>
+                            <td>199.000đ</td>
+                        </tr>
+                        <tr>
+                            <td>PHÍ VẬN CHUYỂN</td>
+                            <td>19.000đ</td>
+                        </tr>
+                        <tr>
+                            <td>TỔNG CỘNG</td>
+                            <td>218.000đ</td>
+                        </tr>
+                    </table>
+                    <div class="cart-content-right-button">
+                        <div class="cart-content-right-button-muatiep">
+                            <button>QUAY VỀ GIỎ HÀNG</button>
+                        </div>
+                        <div class="cart-content-right-button-thanhtoan">
+                            <button>THANH TOÁN</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
