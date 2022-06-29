@@ -65,7 +65,6 @@ html {
     padding: 0 24px;
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 .header-user {
@@ -94,9 +93,13 @@ html {
     position: absolute;
     top: 100%;
     left: 28%;
-    background-color: #f1eff1;
-    box-shadow: 0 0 10px gray;
-    min-width: 160px;
+    background-color: rgba(32, 32, 32, 0.85);
+    min-width: 200px;
+}
+
+.header-nav .subnav li {
+    padding: 3px 3px 3px;
+    border-bottom: 1px solid #fff;
 }
 
 .header-nav .subnav li:hover a {
@@ -104,7 +107,8 @@ html {
 }
 
 .header-nav .subnav a {
-    color: #000;
+    color: #fff;
+    font-size: 14px;
     padding: 0 12px;
     line-height: 39px;
 }
@@ -783,6 +787,7 @@ html {
     margin-top: 120px;
     margin-left: 90px;
     margin-right: 90px;
+    min-height: 500px;
 }
 
 .delivery-content-left {
@@ -835,4 +840,80 @@ html {
 .delivery-content-left-input-right-cod input,
 .delivery-content-left-input-right-bank input {
     margin-right: 10px;
+}
+
+#delivery-sent-acp {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#delivery-sent-acp:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* user */
+
+#user {
+    margin-top: 140px;
+    padding: 0 90px;
+    min-height: 500px;
+}
+
+.user-content-left {
+    width: 50%;
+}
+
+.user-content-right {
+    width: 50%;
+}
+
+.user-content-right,
+.user-content-left {
+    text-align: center;
+}
+
+.user-content-right p,
+.user-content-left p {
+margin-bottom: 20px;
+font-weight: bold;
+}
+
+.user-content-left-top {
+    width: 100%;
+}
+
+.user-content-left-bottom {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.user-content-right-item input,
+.user-content-left-bottom input,
+.user-content-left-top input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px 10px 12px;
+    border: 1px solid #ddd;
+}
+
+.user-content-right {
+    padding-left: 20px;
+}
+
+#user-content-left-top-item-log-in,
+#user-content-left-bottom-item-send,
+#user-content-right-item-dangky {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#user-content-left-top-item-log-in:hover,
+#user-content-left-bottom-item-send:hover,
+#user-content-right-item-dangky:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
 }
