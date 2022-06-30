@@ -917,3 +917,205 @@ font-weight: bold;
     color: #fff;
     cursor: pointer;
 }
+
+/* admin-login */
+.admin-login {
+    margin:150px 90px 0 90px;
+    min-height: 500px;
+}
+
+.admin-login .container {
+    text-align: center;
+    justify-content: center;
+}
+
+.admin-login p{
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.admin-login .container input {
+    width: 100%;
+    margin-bottom:20px ;
+    padding: 12px 12px 10px;
+}
+
+
+/* admin danh muc */
+.admin-danhmuc {
+    margin: 150px;
+    min-height: 200px;
+}
+
+.admin-danhmuc-content-top {
+    justify-content: space-between;
+}
+
+.admin-danhmuc-content-top-left {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.admin-danhmuc-content-top-right {
+    border: 1px solid #ddd;
+    padding: 12px 10px 12px;
+}
+
+.admin-danhmuc-content-top-right:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.admin-danhmuc-top-right,
+.admin-danhmuc-top-left,
+.admin-danhmuc-content-item-right,
+.admin-danhmuc-content-item-left {
+    width: 50%;
+}
+
+.admin-danhmuc-top p{
+    margin-top: 30px ;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.admin-danhmuc-top-right,
+.admin-danhmuc-top-left {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-danhmuc-content-item-right,
+.admin-danhmuc-top-right {
+   padding-left: 300px;
+}
+
+
+.admin-danhmuc-content-item {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.admin-danhmuc-content-item-right i {
+    margin-left: 20px;
+}
+
+.admin-danhmuc-content-item-right i:hover {
+    color: #f36c21;
+    cursor: pointer;
+}
+
+.admin-danhmuc-content-bottom p {
+    margin-top: 20px;
+    padding:6px 9px;
+    border: 1px solid #ddd;
+    margin-left: 6px;
+}
+
+.admin-danhmuc-content-bottom p:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+/* them danh muc */
+.admin-them-danh-muc {
+    margin:120px 90px 0 90px;
+    min-height: 480px;
+}
+
+.admin-them-danh-muc-top {
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.admin-them-danh-muc-content {
+    justify-content: center;
+}
+
+.admin-them-danh-muc-content-item input,
+.admin-them-danh-muc-content-item p {
+    margin-bottom: 12px;
+}
+
+.admin-them-danh-muc-content-item input {
+    padding: 12px 10px 12px;
+    width: 100%;
+}
+
+#admin-them-danh-muc-content-item-acp {
+    background-color:#000;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin-them-danh-muc-content-item-acp:hover {
+    opacity: 70%;
+}
+
+.admin-them-danh-muc-content-item-huy {
+    font-size: 14px;
+    padding: 12px 10px 0px 0px;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/* sua danh muc */
+.admin-sua-danh-muc {
+    margin:120px 90px 0 90px;
+    min-height: 480px;
+}
+
+.admin-sua-danh-muc-top {
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.admin-sua-danh-muc-content {
+    justify-content: center;
+}
+
+.admin-sua-danh-muc-content-item input,
+.admin-sua-danh-muc-content-item p {
+    margin-bottom: 12px;
+}
+
+.admin-sua-danh-muc-content-item input {
+    padding: 12px 10px 12px;
+    width: 100%;
+}
+
+#admin-sua-danh-muc-content-item-acp {
+    background-color:#000;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin-sua-danh-muc-content-item-acp:hover {
+    opacity: 70%;
+}
+
+.admin-sua-danh-muc-content-item-huy {
+    font-size: 14px;
+    padding: 12px 10px 0px 0px;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
