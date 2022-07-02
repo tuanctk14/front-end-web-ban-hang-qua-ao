@@ -1117,5 +1117,188 @@ font-weight: bold;
     cursor: pointer;
 }
 
+/* admin san pham */
+
+.admin-sanpham {
+    margin: 150px;
+    min-height: 200px;
+}
+
+.admin-sanpham-content-top {
+    justify-content: space-between;
+}
+
+.admin-sanpham-content-top-left {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.admin-sanpham-content-top-right {
+    border: 1px solid #ddd;
+    padding: 12px 10px 12px;
+}
+
+.admin-sanpham-content-top-right:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.admin-sanpham-top-left,
+.admin-sanpham-content-item-left {
+    width: 90%;
+}
+
+.admin-sanpham-top-right,
+.admin-sanpham-content-item-right{
+    width: 10%;
+}
+
+.admin-sanpham-top p{
+    margin-top: 30px ;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.admin-sanpham-top-right,
+.admin-sanpham-top-left {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
 
 
+.admin-sanpham-content-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.admin-sanpham-content-item-right i {
+    margin-left: 20px;
+}
+
+.admin-sanpham-content-item-right i:hover {
+    color: #f36c21;
+    cursor: pointer;
+}
+
+.admin-sanpham-content-bottom p {
+    margin-top: 20px;
+    padding:6px 9px;
+    border: 1px solid #ddd;
+    margin-left: 6px;
+}
+
+.admin-sanpham-content-bottom p:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.admin-sanpham-item {
+    width: 15%;
+}
+
+.admin-sanpham-item img{
+    width: 100%;
+}
+
+.admin-sanpham-item p {
+    padding-left: 2px;
+
+}
+
+/* them sanpham */
+.admin-them-sanpham {
+    margin:120px 90px 0 90px;
+    min-height: 480px;
+}
+
+.admin-them-sanpham-top {
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.admin-them-sanpham-content {
+    justify-content: center;
+}
+
+.admin-them-sanpham-content-item input,
+.admin-them-sanpham-content-item p {
+    margin-bottom: 12px;
+}
+
+.admin-them-sanpham-content-item input {
+    padding: 12px 10px 12px;
+    width: 100%;
+}
+
+#admin-them-sanpham-content-item-acp {
+    background-color:#000;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin-them-sanpham-content-item-acp:hover {
+    opacity: 70%;
+}
+
+.admin-them-sanpham-content-item-huy {
+    font-size: 14px;
+    padding: 12px 10px 0px 0px;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/* sua sanpham */
+.admin-sua-sanpham {
+    margin:120px 90px 0 90px;
+    min-height: 480px;
+}
+
+.admin-sua-sanpham-top {
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.admin-sua-sanpham-content {
+    justify-content: center;
+}
+
+.admin-sua-sanpham-content-item input,
+.admin-sua-sanpham-content-item p {
+    margin-bottom: 12px;
+}
+
+.admin-sua-sanpham-content-item input {
+    padding: 12px 10px 12px;
+    width: 100%;
+}
+
+#admin-sua-sanpham-content-item-acp {
+    background-color:#000;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin-sua-sanpham-content-item-acp:hover {
+    opacity: 70%;
+}
+
+.admin-sua-sanpham-content-item-huy {
+    font-size: 14px;
+    padding: 12px 10px 0px 0px;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
